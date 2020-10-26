@@ -32,17 +32,17 @@ public class SingleLinkedList {
         ListNode nodeNext = null;
         ListNode nodeFront = head;
 
-        int data = 0;
+    /*    int data = 0;
 
         if(nodeFront.data == valueToRemove) {
             nodeFront = nodeNext.next;
             nodeNext = nodeFront;
             return data;
         } else {
-            return 0;
+     */       return 0;
         }
 
-    }
+    //}
     //https://www.geeksforgeeks.org/reverse-a-linked-list/
     // reverse the linked list nodes iteratively (no recursion)
     public ListNode reverse() {
